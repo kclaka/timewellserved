@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title7 desc7">
+  <title id="title7">Community connection and shared impact</title>
+  <desc id="desc7">Abstract connected hands and nodes representing community impact</desc>
+  <defs>
+    <linearGradient id="g7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="bg7" x1="0" y1="0" x2="900" y2="560">
+      <stop offset="0" stop-color="#F0F7FF"/>
+      <stop offset="1" stop-color="#EEFFF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#bg7)"/>
+
+  <!-- Network -->
+  <g transform="translate(120,120)" opacity="0.9">
+    <circle cx="120" cy="200" r="34" fill="#3B82F6"/>
+    <circle cx="340" cy="120" r="34" fill="#10B981"/>
+    <circle cx="520" cy="240" r="34" fill="#2563EB"/>
+    <circle cx="420" cy="320" r="28" fill="#60A5FA"/>
+
+    <path d="M120 200 C210 160 260 140 340 120" stroke="url(#g7)" stroke-width="6" opacity="0.25"/>
+    <path d="M340 120 C420 160 470 200 520 240" stroke="url(#g7)" stroke-width="6" opacity="0.25"/>
+    <path d="M120 200 C240 260 360 300 520 240" stroke="url(#g7)" stroke-width="6" opacity="0.25"/>
+  </g>
+
+  <!-- Hands (abstract) -->
+  <g transform="translate(80,360)" opacity="0.9">
+    <rect x="0" y="0" width="180" height="40" rx="20" fill="#BFDBFE"/>
+    <rect x="160" y="-10" width="36" height="60" rx="18" fill="#93C5FD"/>
+  </g>
+  <g transform="translate(640,360) rotate(180 90 20)" opacity="0.9">
+    <rect x="0" y="0" width="180" height="40" rx="20" fill="#A7F3D0"/>
+    <rect x="160" y="-10" width="36" height="60" rx="18" fill="#6EE7B7"/>
+  </g>
+
+  <!-- Center badge -->
+  <g transform="translate(430,280)">
+    <circle cx="0" cy="0" r="30" fill="#FFFFFF" stroke="#E6EEF9"/>
+    <path d="M-12 2 L-2 12 L18 -8" stroke="#10B981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Modern community service and progress illustration</title>
+  <desc id="desc">Abstract gradients, shapes, and UI cards representing matching, tracking, and verification for community service</desc>
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EEF4FF"/>
+      <stop offset="1" stop-color="#E7FFF6"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feBlend in="SourceGraphic" in2="b" mode="normal"/>
+    </filter>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FBFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <!-- Soft decorative blobs -->
+  <g filter="url(#soft)">
+    <circle cx="1040" cy="120" r="120" fill="#C7DDFF" opacity="0.45"/>
+    <circle cx="1120" cy="220" r="90" fill="#B6F3DE" opacity="0.55"/>
+    <circle cx="120" cy="640" r="140" fill="#BBD6FF" opacity="0.45"/>
+  </g>
+
+  <!-- Diagonal accent shapes -->
+  <path d="M940,0 C920,120 780,220 650,260 C520,300 420,380 380,480 C340,580 260,640 120,680 L0,800 L1200,800 L1200,0 Z" fill="url(#accentA)" opacity="0.06"/>
+  <path d="M1200,420 C1000,420 960,560 780,600 C640,630 580,700 420,740 L1200,740 Z" fill="url(#accentB)" opacity="0.08"/>
+
+  <!-- Left content: abstract figures (community) -->
+  <g transform="translate(90,250)">
+    <!-- Figure 1 -->
+    <circle cx="80" cy="40" r="22" fill="#3B82F6"/>
+    <rect x="60" y="66" width="40" height="90" rx="20" fill="#60A5FA"/>
+    <rect x="40" y="90" width="80" height="20" rx="10" fill="#93C5FD"/>
+
+    <!-- Figure 2 -->
+    <circle cx="170" cy="36" r="20" fill="#10B981"/>
+    <rect x="152" y="60" width="36" height="84" rx="18" fill="#34D399"/>
+    <rect x="136" y="84" width="68" height="18" rx="9" fill="#A7F3D0"/>
+
+    <!-- Figure 3 -->
+    <circle cx="245" cy="44" r="18" fill="#2563EB"/>
+    <rect x="230" y="64" width="32" height="78" rx="16" fill="#3B82F6"/>
+    <rect x="216" y="86" width="62" height="16" rx="8" fill="#BFDBFE"/>
+  </g>
+
+  <!-- Right content: "dashboard" cards to suggest product UI -->
+  <g transform="translate(600,140)">
+    <!-- Main card -->
+    <rect x="0" y="0" width="500" height="340" rx="20" fill="url(#cardGrad)" stroke="#E6EEF9"/>
+    <rect x="28" y="28" width="300" height="18" rx="9" fill="#E8F1FF"/>
+
+    <!-- Progress bars -->
+    <rect x="28" y="80" width="180" height="12" rx="6" fill="#EAF2FF"/>
+    <rect x="28" y="80" width="120" height="12" rx="6" fill="url(#accentA)" opacity="0.9"/>
+
+    <rect x="28" y="110" width="240" height="12" rx="6" fill="#EAF2FF"/>
+    <rect x="28" y="110" width="200" height="12" rx="6" fill="url(#accentB)" opacity="0.9"/>
+
+    <rect x="28" y="140" width="210" height="12" rx="6" fill="#EAF2FF"/>
+    <rect x="28" y="140" width="150" height="12" rx="6" fill="url(#accentA)" opacity="0.9"/>
+
+    <!-- KPI chips -->
+    <g transform="translate(28,185)">
+      <rect x="0" y="0" width="130" height="60" rx="12" fill="#FFFFFF" stroke="#E6EEF9"/>
+      <circle cx="22" cy="30" r="10" fill="#10B981"/>
+      <rect x="40" y="18" width="76" height="10" rx="5" fill="#CFE8FF"/>
+      <rect x="40" y="36" width="62" height="8" rx="4" fill="#EAF2FF"/>
+    </g>
+    <g transform="translate(170,185)">
+      <rect x="0" y="0" width="130" height="60" rx="12" fill="#FFFFFF" stroke="#E6EEF9"/>
+      <circle cx="22" cy="30" r="10" fill="#3B82F6"/>
+      <rect x="40" y="18" width="76" height="10" rx="5" fill="#CFE8FF"/>
+      <rect x="40" y="36" width="62" height="8" rx="4" fill="#EAF2FF"/>
+    </g>
+    <g transform="translate(312,185)">
+      <rect x="0" y="0" width="160" height="60" rx="12" fill="#FFFFFF" stroke="#E6EEF9"/>
+      <circle cx="22" cy="30" r="10" fill="#F59E0B"/>
+      <rect x="40" y="18" width="106" height="10" rx="5" fill="#FFEBC6"/>
+      <rect x="40" y="36" width="84" height="8" rx="4" fill="#FFF5DF"/>
+    </g>
+
+    <!-- Task list -->
+    <g transform="translate(28,260)">
+      <rect x="0" y="0" width="300" height="52" rx="10" fill="#FFFFFF" stroke="#E6EEF9"/>
+      <circle cx="26" cy="26" r="9" fill="#10B981"/>
+      <rect x="44" y="14" width="160" height="10" rx="5" fill="#DFF4FF"/>
+      <rect x="44" y="32" width="120" height="8" rx="4" fill="#EEF6FF"/>
+
+      <rect x="320" y="0" width="150" height="52" rx="10" fill="url(#accentA)"/>
+      <rect x="342" y="18" width="106" height="16" rx="8" fill="#FFFFFF" opacity="0.95"/>
+    </g>
+  </g>
+
+  <!-- Floating verification badge -->
+  <g transform="translate(460,70)">
+    <circle cx="0" cy="0" r="34" fill="#FFFFFF" stroke="#E6EEF9"/>
+    <path d="M-12 2 L-2 12 L18 -8" stroke="#10B981" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Decorative lines -->
+  <g opacity="0.35">
+    <path d="M140 160 C280 140 360 120 540 150" stroke="#93C5FD" stroke-width="2" stroke-linecap="round"/>
+    <path d="M160 190 C300 170 360 180 520 210" stroke="#A7F3D0" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

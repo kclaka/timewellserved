@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title6 desc6">
+  <title id="title6">Nonprofit management illustration</title>
+  <desc id="desc6">Abstract nonprofit opportunity posting and verification</desc>
+  <defs>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="bg6" x1="0" y1="0" x2="800" y2="520">
+      <stop offset="0" stop-color="#EFF6FF"/>
+      <stop offset="1" stop-color="#EFFFF9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg6)"/>
+
+  <g transform="translate(120,80)">
+    <rect x="0" y="0" width="560" height="340" rx="18" fill="#FFFFFF" stroke="#E6EEF9"/>
+    <rect x="24" y="24" width="220" height="14" rx="7" fill="#EAF2FF"/>
+
+    <!-- Opportunity card -->
+    <g transform="translate(24,70)">
+      <rect x="0" y="0" width="320" height="160" rx="14" fill="#F9FBFF" stroke="#E6EEF9"/>
+      <rect x="16" y="16" width="180" height="12" rx="6" fill="#EAF2FF"/>
+      <rect x="16" y="40" width="220" height="10" rx="5" fill="#F4F8FF"/>
+      <rect x="16" y="62" width="190" height="10" rx="5" fill="#F4F8FF"/>
+      <rect x="16" y="112" width="120" height="20" rx="10" fill="url(#g6)"/>
+    </g>
+
+    <!-- Verification badge -->
+    <g transform="translate(400,80)">
+      <circle cx="0" cy="0" r="28" fill="#FFFFFF" stroke="#E6EEF9"/>
+      <path d="M-10 2 L-2 10 L14 -6" stroke="#10B981" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- List -->
+    <g transform="translate(370,140)">
+      <rect x="0" y="0" width="160" height="12" rx="6" fill="#EAF2FF"/>
+      <rect x="0" y="26" width="140" height="10" rx="5" fill="#F4F8FF"/>
+      <rect x="0" y="48" width="120" height="10" rx="5" fill="#F4F8FF"/>
+      <rect x="0" y="70" width="130" height="10" rx="5" fill="#F4F8FF"/>
+    </g>
+  </g>
+</svg>

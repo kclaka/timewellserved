@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title4 desc4">
+  <title id="title4">Volunteer experience illustration</title>
+  <desc id="desc4">Abstract volunteer profile and checklist</desc>
+  <defs>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="bg4" x1="0" y1="0" x2="800" y2="520">
+      <stop offset="0" stop-color="#F1F7FF"/>
+      <stop offset="1" stop-color="#EDFFF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#bg4)"/>
+
+  <g transform="translate(120,80)">
+    <rect x="0" y="0" width="560" height="340" rx="18" fill="#FFFFFF" stroke="#E6EEF9"/>
+    <!-- Avatar -->
+    <circle cx="80" cy="90" r="36" fill="#93C5FD"/>
+    <rect x="52" y="140" width="56" height="16" rx="8" fill="#EAF2FF"/>
+
+    <!-- Checklist -->
+    <g transform="translate(160,40)">
+      <rect x="0" y="0" width="340" height="14" rx="7" fill="#EAF2FF"/>
+      <rect x="0" y="30" width="300" height="12" rx="6" fill="#F4F8FF"/>
+      <g transform="translate(0,64)">
+        <circle cx="10" cy="10" r="10" fill="#10B981"/>
+        <path d="M4 12 L9 17 L18 7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="30" y="4" width="200" height="12" rx="6" fill="#EAF2FF"/>
+      </g>
+      <g transform="translate(0,106)">
+        <circle cx="10" cy="10" r="10" fill="#3B82F6"/>
+        <path d="M4 12 L9 17 L18 7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="30" y="4" width="220" height="12" rx="6" fill="#EAF2FF"/>
+      </g>
+      <g transform="translate(0,148)">
+        <circle cx="10" cy="10" r="10" fill="#F59E0B"/>
+        <path d="M4 12 L9 17 L18 7" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="30" y="4" width="180" height="12" rx="6" fill="#EAF2FF"/>
+      </g>
+    </g>
+  </g>
+</svg>
